@@ -1,0 +1,25 @@
+# print the opening page and also set MAX_TRIES
+# Generate MAX_TRIES maximun number of guesses/tried allowd.
+import random
+from random import randrange
+
+MAX_TRIES = random.randint(5, 10) 
+#print(MAX_TRIES)
+# Create opeining title output
+title_page = """ 
+Welcome to the game Hangman
+    _    _
+   | |  | |
+   | |__| | __ _ _ __   __ _ _ __ ___   __ _ _ __
+   |  __  |/ _' | '_ \ / _' | '_ ' _ \ / _' | '_ \\
+   | |  | | (_| | | | | (_| | | | | | | (_| | | | |
+   |_|  |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
+                        __/ |
+                       |___/
+"""
+
+print (title_page,MAX_TRIES)
+
+current_guess = input ("Guess a letter:")
+print (current_guess)
+
