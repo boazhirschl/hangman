@@ -1,4 +1,4 @@
-# 3 little piglets
+# 3 little pigletsaaa
 # input 3 dig number_of_bricks report sum average and 
 number_of_bricks = int(input("Enter three digits (each digit for one pig):"))
 print ("with loop")
